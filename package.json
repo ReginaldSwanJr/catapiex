@@ -1,0 +1,16 @@
+{
+  "name": "catapi",
+  "version": "1.0.0",
+  "description": "A cat api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "live-server": "^1.2.1",
+    "nodemon": "^2.0.6"
+  }
+}
