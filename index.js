@@ -41,7 +41,7 @@ function castVote(value) {
         {
           'image_id': cat_id,
           'sub_id': 'user_001',
-          'value': 1
+          'value': value
         },
         config
       )
@@ -51,7 +51,7 @@ function castVote(value) {
 
 
   // EVENT LISTENER
-document.getElementById('catId').addEventListener('click', getCatt);
+//document.getElementById('catId').addEventListener('click', getCatt);
 
 document.getElementById('like_button').addEventListener('click', () => {castVote(1); getCatt()})
 document.getElementById('dntLike_button').addEventListener('click', () => {castVote(0); getCatt()})
